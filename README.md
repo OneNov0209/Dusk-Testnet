@@ -139,7 +139,7 @@ cd rusk-wallet0.12.0-linux-x64
 
 ```
 cd
-curl --proto '=https' --tlsv1.2 -sSf https://dusk-infra.ams3.digitaloceanspaces.com/rusk/itn-installer.sh | sh
+curl --proto '=https' --tlsv1.2 -sSfL https://github.com/dusk-network/itn-installer/releases/download/v0.0.3/itn-installer.sh| sudo sh
 ```
 
 ## 6. Buka Port (Untuk Pengguna Azure sama DO biasanya Buka Port di Website Dasboard VPS Kalian) kalo Contabo Langsung Paste aja di Vps Kalian
